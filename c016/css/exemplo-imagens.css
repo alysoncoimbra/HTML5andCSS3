@@ -1,0 +1,82 @@
+/*
+    Uma cor de  fonte é aplicada para toda a página assim como uma textura de fundo;
+    Alterando o tipo de fonte para o tipo serifada e alinhando todo o texto da página 
+    ao centro (por curiosidade, os elementos acabam sendo alinhados ao centro do 
+    elemento body);
+*/
+body {
+    color: #665544;
+    background-color: #d4d0c6;
+    background-image: url('../images/backdrop.gif');
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+/*
+    Alterando o tamanho da caixa que tem a classe .wrapper e definindo uma margem para
+    ela de 0px (para cima e para baixo) e auto para esquerda e para a direita fazendo
+    com que ela fique "colada" no topo e no fundo e fique centralizada no eixo x;
+*/
+.wrapper {
+    width: 720px;
+    margin: 0px auto;
+}
+
+/*
+    Definindo uma margem para o elemento div de classe .header de 40px para cima,
+    0px para a direita, 20px para baixo e 0px para a esquerda;
+*/
+.header {
+    margin: 40px 0px 20px 0px;
+}
+/*
+    Definindo uma largura para a caixa .entry de 220px, assim como um posicionamento
+    flutuante á esquerda para todos os seus elementos;
+    Uma margen de 10px para o eixo x e y;
+    Uma altura de 198px;
+    Adicionando uma imagem ao fundo, impedindo que ela seja repetida e alterando sua 
+    posição em relação ao elemento pai para o fundo do mesmo;
+*/
+.entry {
+    width: 220px;
+    float: left;
+    margin: 10px;
+    height: 198px;
+    background-image: url('../images/shadow.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/*
+    Alterando o tipo de nível do elemento de linha para bloco e definindo uma largura de 202px
+    para ele com uma altura de 170px;
+    Sua cor de fundo foi alterada para um tom sauve;
+    Foi adicionado um preenchimento de 9px;
+    Seu texto foi alinhado á esquerda;
+*/
+figure {
+    display: block;
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    padding: 9px;
+    text-align: left;
+}
+/*
+  A altura e a largura foram definidas;
+  Uma borda foi adicionada;  
+*/
+figure img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #d6d6d6;
+}
+/*
+    Foi adicionada uma imagem de fundo sem repetição;
+    Um preenchimento ao lado esquerdo da caixa foi adicionado;
+*/
+figcaption {
+    background-image: url('../images/icon.png');
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
