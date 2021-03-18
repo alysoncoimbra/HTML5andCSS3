@@ -1,0 +1,42 @@
+body {
+	font-family: "Arial", "Verdana";
+}
+
+fieldset {
+	width: 350px;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: left;
+}
+
+legend {
+	background-color: #efefef;
+	border: 1px solid #efefef;
+	border-radius: 10px;
+	padding: 10px 20px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+input {
+	display: inline;
+}
+
+input[value=Subscribe] {
+	margin-left: auto;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	width: 90px;
+}
+
+input.ins {
+	width: 280px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	border: none;
+	border-bottom: 1px solid #efefef;
+}

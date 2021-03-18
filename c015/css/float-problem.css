@@ -1,0 +1,15 @@
+div {
+	width: 750px;
+	border: 1px solid #665544;
+}
+
+p {
+	width: 230px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+p.clear {
+	clear: left;
+}

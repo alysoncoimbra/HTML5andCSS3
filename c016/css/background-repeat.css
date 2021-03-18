@@ -1,0 +1,8 @@
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	color: #ffffff	;
+}
+body {
+	background-image: url('../images/header.gif');
+	background-repeat: repeat-x;
+}

@@ -1,0 +1,12 @@
+* {
+	font-family: "Times New Roman";
+	color: #665544;
+}
+
+body {
+	height: 100%;
+	background-color: #ffffff;
+	background-image: url('../images/tulip.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}

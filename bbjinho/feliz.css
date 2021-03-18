@@ -1,0 +1,21 @@
+body {
+	font-family: 'Snell Roundhand', cursive;
+	background-image: url('heart.png');
+}
+
+div {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 190px;
+	width: 40%;
+	padding: 15px;
+	height: 45%;
+	min-width: 200px;
+}
+
+p {
+	text-align: center;
+	font-size: 1.7em;
+	text-shadow: 1.2px 1.2px 2px #666666;
+}
+

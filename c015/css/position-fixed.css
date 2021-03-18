@@ -1,0 +1,17 @@
+body {
+	font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+	position: fixed;
+	top: 0px;
+	left: 50px;
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+	background-color: #efefef;
+}
+
+p[class=example] {
+	margin-top: 100px;
+}
